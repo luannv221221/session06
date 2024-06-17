@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #090404ed;
+    text-align: center;
+    padding: 15px;
+}
+
+.header img {
+    width: 150px;
+
+}
+
+.menu {
+    background-color: #9c6969;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.menu ul li {
+    display: inline-block;
+    /* margin: 15px; */
+    padding: 15px;
+}
+
+.menu ul li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: red;
+}
+
+ul li:hover a {
+    color: yellow;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
